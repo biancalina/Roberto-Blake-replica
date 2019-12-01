@@ -6,3 +6,4 @@ package-lock.json
 .vscode
 .publish
 .pnp*
+src/_font
