@@ -1,10 +1,21 @@
 nav.header
-    .header__top
-        span.header__name Roberto Blake
-        label.rb-menu(for="toggle-top-menu")
 
     //- pre=JSON.stringify(data['top-menu'], null, 2)
     input(type="checkbox", id="toggle-top-menu")
-    .header__menu-list
+    ul.header__menu-list
         each item in data['top-menu']
-            a.header__menu-link(href=item.href, target=item.target)=item.text
+            li.header__menu-item
+                if item.type && item.type == 'dropdown'
+                    input(type="checkbox", id="header-sub-menu")
+                    label.header__menu-link(for="header-sub-menu")=item.text
+                        span=item.text
+                        span.rb-circle-down
+                    ul.header__sub-menu
+                        each dropdown in item.children
+                            li
+                                a.header__menu-sub-link(href=dropdown.href)=dropdown.text
+                else
+                    a.header__menu-link(href=item.href, target=item.target)=item.text
+    .header__top
+        span.header__name Roberto Blake
+        label.rb-menu(for="toggle-top-menu")

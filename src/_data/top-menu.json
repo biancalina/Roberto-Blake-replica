@@ -24,11 +24,12 @@
   "target": "_blank"
 },
 {
-  "href": "/#",
+  "href": "http://robertoblake.com/#",
   "text": "Media",
   "target": "",
   "type": "dropdown",
-  "children": [{
+  "children": [
+    {
       "href": "/asset/pdf/RobertoBlake-Speaker.pdf",
       "text": "Speaker Sheet [PDF]",
       "target": "_blank",
