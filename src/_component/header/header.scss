@@ -10,7 +10,9 @@
     // line-height: 52px;
     align-items: center;
     border: 0.1rem solid $color-mercury;
-    position: relative;
+    position: fixed;
+    left: 0;
+    right: 0;
     background-color: $color-mine-shaft;
 }
 
@@ -22,7 +24,10 @@
 
 .rb-menu {
     font-size: 2.5rem;
-    padding: 1.5rem;
+    padding: 0.5rem;
+    border: 0.1rem solid $color-white;
+    margin: 0.8rem;
+    border-radius: 0.3rem;
     cursor: pointer;
 }
 
@@ -59,7 +64,7 @@
     // display: none;
     transition: 0.25s;
     position: fixed;
-    top: 5.2rem;
+    top: -100%;
     left: 0;
     right: 0;
     border: 0.1rem solid $color-mercury;
@@ -72,7 +77,7 @@
 
 #toggle-top-menu:checked + .header__menu-list {
     // display: inherit;
-    top: -100%;
+    top: 5.2rem;
 }
 
 .rb-circle-down {
