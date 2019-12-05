@@ -1,4 +1,13 @@
 .footer
+    .footer__social
+        //- pre=JSON.stringify(data.footer, null ,2)
+        ul
+          each social in data.footer
+              li.social__item
+                  a.social__icon(
+                  href=social.href, title=social.label
+                  )
+                  p.footer__description=social.description
     p Copyright &copy; #{new Date().getFullYear()} - All Right Reserved
     p
         a.footer__link(href="/") Roberto Blake
