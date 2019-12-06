@@ -37,6 +37,13 @@ hr {
     margin: 1.5rem;
 }
 
+.text-justify {
+    text-align: justify;
+    p {
+        padding: 1rem 0;
+    }
+}
+
 .youtube-video-16-by-9 {
     width: 100%;
     padding-top: 56.65%;
@@ -46,6 +53,7 @@ hr {
         position: absolute;
         top: 0;
         left: 0;
+        z-index: -1;
     }
 }
 
