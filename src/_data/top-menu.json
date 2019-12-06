@@ -4,22 +4,22 @@
   "target": ""
 },
 {
-  "href": "/roberto-blake-replica/about.php",
+  "href": "/about.php",
   "text": "My Story",
   "target": ""
 },
 {
-  "href": "/roberto-blake-replica/speaker.php",
+  "href": "/speaker.php",
   "text": "Speaking",
   "target": ""
 },
 {
-  "href": "/roberto-blake-replica/training.php",
+  "href": "/training.php",
   "text": "Consulting",
   "target": ""
 },
 {
-  "href": "http://justcreateawesome.com/",
+  "href": "/",
   "text": "Articles",
   "target": "_blank"
 },
