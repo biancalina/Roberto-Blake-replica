@@ -22,14 +22,13 @@ p {
     font-size: 1.6rem;
 }
 
-@import 'landing-content';
 
 a {
     color: $color-astral;
     text-decoration: none;
-
+    
     &:hover {
-      text-decoration: underline;
+        text-decoration: underline;
     }
 }
 
@@ -37,3 +36,18 @@ hr {
     border-top: 0.1rem solid $color-gallery;
     margin: 1.5rem;
 }
+
+.youtube-video-16-by-9 {
+    width: 100%;
+    padding-top: 56.65%;
+    position: relative;
+
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+
+@import 'landing-content';
