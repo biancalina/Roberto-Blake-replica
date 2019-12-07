@@ -34,11 +34,11 @@
 
 .header__menu-item {
   &:first-child {
-      &:after {
+      & .header__menu-link:after {
           font-family: 'roberto-blake' !important;
           content: "\e900";
           font-size: 2rem;
-          padding: 0 1.5rem;
+          // padding: 0 1.5rem;
       }
   }
 }
