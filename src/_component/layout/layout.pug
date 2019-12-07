@@ -5,12 +5,13 @@ html
         title=title
         meta(name="description", content="description")
         meta(name="robots", content="noindex")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
         link(
             rel="canonical", 
             href="http://robertoblake.com/"
         )
-        //- if config.entry.css.embed
-        //-     link(rel="stylesheet" href=`${embedPath}` inline)
+        if config.entry.css.embed
+            link(rel="stylesheet" href=`${embedPath}` inline)
     body
         include ../header/header
         .content
@@ -19,4 +20,5 @@ html
         include ../featured/featured
         .footer
             include ../footer/footer
+        script(src="/asset/js/all.js")
 link(rel="stylesheet", href="/style.css")

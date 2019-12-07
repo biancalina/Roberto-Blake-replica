@@ -1,27 +1,27 @@
 .footer {
   font-size: 1.4rem;
   text-align: center;
-  background-color: $color-pizazz;
+
 }
 .footer__social {
   background-color: $color-pizazz;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   color: $color-white;
-
+  
   a {
-      color: $color-astral;
-      text-decoration: none;
+    color: $color-astral;
+    // text-decoration: none;
   }
-
+  
   h2 {
-      height: 3rem;
-      padding: 1.5rem;
+    font-size: 3rem;
+    padding: 1.5rem;
   }
-
+  
   p {
-      font-size: 1.5rem;
-      padding: 1rem;
-  }
+    font-size: 1.5rem;
+    padding: 1rem;
+    }
 }
 
 .footer__description {
