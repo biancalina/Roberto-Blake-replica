@@ -41,7 +41,7 @@
       "sourceFileChange": false,
       "url": {
         "//": "this is recommended to avoid Linux/Windows capitalization issue",
-        "htmlExtensionOn": false,
+        "htmlExtensionOn": true,
         "toLowercase": true
       }
     },
@@ -50,7 +50,7 @@
       "cssEmbed": "embed**.{scss,sass}",
       "cssModular": false,
       "css": {
-        "embed": false,
+        "embed": true,
         "external": true
       }
     },

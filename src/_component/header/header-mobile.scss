@@ -131,12 +131,17 @@
 }
 
 .header__body--home {
-  background-image: url('asset/image/robertoblakeheader.jpg');
+  background-image: url('/asset/image/robertoblakeheader.jpg');
   @extend %header__body;
 }
 
 .header__body--about {
-  background-image: url('asset/image/robertoblake2016-design-header.jpg');
+  background-image: url('/asset/image/robertoblake2016-design-header.jpg');
+  @extend %header__body;
+}
+
+.header__body--training {
+  background-image: url('/asset/image/robertoblake2016-marketing-header.jpg');
   @extend %header__body;
 }
 
