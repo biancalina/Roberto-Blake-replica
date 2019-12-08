@@ -70,4 +70,28 @@ hr {
     font-size: 1.4rem;
     padding: 1.5rem;
 }
-@import 'landing-content';
+
+
+h4 {
+  font-size: 1.3rem;
+  padding: 1.2rem;;
+}
+
+.without-disk {
+  list-style-type: none;
+}
+
+.full-width {
+  max-width: 100%;
+}
+
+.image-inline {
+  margin-bottom: -0.4rem;
+  padding: 0 0.4rem;
+}
+
+.image-li {
+  margin-bottom: -0.4rem;
+}
+
+// @import 'landing-content';

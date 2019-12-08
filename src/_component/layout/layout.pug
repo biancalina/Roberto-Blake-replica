@@ -10,8 +10,8 @@ html
             rel="canonical", 
             href="http://robertoblake.com/"
         )
-        if config.entry.css.embed
-            link(rel="stylesheet" href=`${embedPath}` inline)
+        //- if config.entry.css.embed
+        //-     link(rel="stylesheet" href=`${embedPath}` inline)
     body
         include ../header/header
         .content
@@ -21,4 +21,4 @@ html
         .footer
             include ../footer/footer
         script(src="/asset/js/all.js")
-link(rel="stylesheet", href="/style.css")
+link(rel="stylesheet", href="style.css")
