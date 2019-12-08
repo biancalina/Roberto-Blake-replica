@@ -18,8 +18,8 @@
     "pnp": true
   },
   "config": {
-    "customUrl": "http://pug-starter.codetap.io",
-    "githubUrl": "http://github.com/marianzburlea/pug-starter.git",
+    "customUrl": "http://Roberto-Blake-replica.biancalina",
+    "githubUrl": "http://github.com/biancalina/Roberto-Blake-replica.git",
     "deployToGithubIo": true,
     "directory": {
       "development": "tmp",
