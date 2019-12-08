@@ -65,7 +65,7 @@ hr {
     padding: 1rem 3rem;
     font-size: 1.4rem;
   }
-  
+
   h3 {
     font-size: 1.4rem;
     padding: 1.5rem;
@@ -85,13 +85,17 @@ h4 {
   max-width: 100%;
 }
 
+.no-disc {
+  list-style-type: none;
+}
 .image-inline {
+
   margin-bottom: -0.4rem;
   padding: 0 0.4rem;
 }
 
-.image-li {
-  margin-bottom: -0.4rem;
-}
+// .image-li {
+//   margin-bottom: -0.4rem;
+// }
 
-// @import 'landing-content';
+@import 'landing-content';
