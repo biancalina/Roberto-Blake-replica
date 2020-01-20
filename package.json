@@ -50,7 +50,7 @@
       "cssEmbed": "embed**.{scss,sass}",
       "cssModular": false,
       "css": {
-        "embed": false,
+        "embed": true,
         "external": true
       }
     },
