@@ -6,7 +6,7 @@
         p
             a(href="tel:+1-310-409-5408") P: 310.409.5408
         p
-            img(src="/asset/image/email-icon.png" alt="Let's have a quick chat" width="218", height="28")
+            img(src=`${baseUrl}asset/image/email-icon.png` alt="Let's have a quick chat" width="218", height="28")
         ul
           each social in data.footer
               li.social__item
@@ -17,4 +17,4 @@
                   p.footer__description=social.description
     p Copyright &copy; #{new Date().getFullYear()} - All Right Reserved
     p
-        a.footer__link(href="/") Roberto Blake
+        a.footer__link(href=`${baseUrl}`) Roberto Blake

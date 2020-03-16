@@ -14,7 +14,7 @@ nav.header
                             li
                                 if dropdown.download
                                     a.header__menu-sub-link(
-                                        href=`${baseUrl}${dropdown.href}`, 
+                                        href=`${baseUrl}`+dropdown.href, 
                                         download,
                                         target=dropdown.target
                                     )=dropdown.text
@@ -24,7 +24,7 @@ nav.header
                                         target=dropdown.target
                                     )=dropdown.text
                 else
-                    a.header__menu-link(href=item.href, target=item.target)=item.text
+                    a.header__menu-link(href=`${baseUrl}`+item.href, target=item.target)=item.text
     .header__top
         span.header__fullname Roberto Blake
         label.rb-menu(for="toggle-top-menu")
