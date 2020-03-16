@@ -14,7 +14,7 @@ nav.header
                             li
                                 if dropdown.download
                                     a.header__menu-sub-link(
-                                        href=dropdown.href, 
+                                        href=`${baseUrl}${dropdown.href}`, 
                                         download,
                                         target=dropdown.target
                                     )=dropdown.text

@@ -1,20 +1,20 @@
 [{
-  "href": "/",
+  "href": "",
   "text": "",
   "target": ""
 },
 {
-  "href": "/about.php",
+  "href": "about.php",
   "text": "My Story",
   "target": ""
 },
 {
-  "href": "/speaker.php",
+  "href": "speaker.php",
   "text": "Speaking",
   "target": ""
 },
 {
-  "href": "/training.php",
+  "href": "training.php",
   "text": "Consulting",
   "target": ""
 },
