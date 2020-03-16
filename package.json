@@ -50,7 +50,7 @@
       "cssEmbed": "embed**.{scss,sass}",
       "cssModular": false,
       "css": {
-        "embed": true,
+        "embed": false,
         "external": true
       }
     },
@@ -58,7 +58,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marianzburlea/pug-starter.git"
+    "url": "git+https://github.com/biancalina/Roberto-Blake-replica.git"
   },
   "keywords": [
     "pug",
@@ -66,12 +66,12 @@
     "jade",
     "starter"
   ],
-  "author": "Marian Zburlea",
+  "author": "Bianca Andrei",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/marianzburlea/pug-starter/issues"
   },
-  "homepage": "https://github.com/marianzburlea/pug-starter#readme",
+  "homepage": "https://biancalina.github.io/Roberto-Blake-replica",
   "browserslist": [
     "last 2 version",
     "> 5%",
