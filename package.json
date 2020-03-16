@@ -18,7 +18,7 @@
     "pnp": true
   },
   "config": {
-    "customUrl": "http://Roberto-Blake-replica.biancalina",
+    "customUrl": "https://biancalina.github.io/Roberto-Blake-replica",
     "githubUrl": "http://github.com/biancalina/Roberto-Blake-replica.git",
     "deployToGithubIo": true,
     "directory": {
